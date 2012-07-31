@@ -1,2 +1,2 @@
-MedicalClini-Project !!!
+MedicalClinic-Project
 ====================
