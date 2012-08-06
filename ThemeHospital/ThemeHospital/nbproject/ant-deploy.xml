@@ -3,8 +3,8 @@
 
     <!-- Google App Engine Properties -->
     <property name="appengine.location" value="D:\Libraries\appengine-java-sdk-1.6.3.1"/>
-    <property name="appengine.http.port" value="8766"/>
-    <property name="appengine.debug.port" value="8765"/>
+    <property name="appengine.http.port" value="8080"/>
+    <property name="appengine.debug.port" value="8034"/>
 
     <!-- Import Google App Engine Macros -->
     <import file="${appengine.location}/config/user/ant-macros.xml" />
