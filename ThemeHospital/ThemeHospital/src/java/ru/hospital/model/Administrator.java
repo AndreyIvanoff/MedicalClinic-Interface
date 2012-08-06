@@ -15,6 +15,7 @@ public class Administrator extends HumanEntityExtension{
 	private String password;
 	private Long permissionLevel;
 	private Long registeredBy;
+	private String login;
 
 	public Administrator(Entity entity){
 		super(entity);
@@ -42,6 +43,14 @@ public class Administrator extends HumanEntityExtension{
 
 	public void setRegisteredBy(Long registeredBy) {
 		this.registeredBy = registeredBy;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
 	}
 
 	@Override
